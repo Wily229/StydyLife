@@ -1,0 +1,240 @@
+{
+ "subject": "chimie",
+ "title": "Chimie",
+ "skills": [
+  {
+   "id": "c-etats",
+   "title": "États de la matière",
+   "lesson": "La matière existe à l'état solide (forme propre), liquide (prend la forme du récipient) ou gazeux. Fusion : solide → liquide. Vaporisation : liquide → gaz. Solidification : liquide → solide. Condensation : gaz → liquide.",
+   "example": "La glace est solide ; en fondant, elle devient de l'eau liquide."
+  },
+  {
+   "id": "c-melanges",
+   "title": "Mélanges homogènes et hétérogènes",
+   "lesson": "Dans un mélange homogène, on ne distingue qu'une seule phase (eau salée, sucre dissous). Dans un mélange hétérogène, on distingue plusieurs phases (eau et sable, eau et huile).",
+   "example": "L'eau salée est homogène ; l'eau et l'huile sont hétérogènes."
+  },
+  {
+   "id": "c-separation",
+   "title": "Séparer un mélange",
+   "lesson": "La filtration sépare un solide non dissous d'un liquide. La décantation sépare deux liquides qui ne se mélangent pas ou laisse déposer un solide. L'évaporation permet de récupérer un solide dissous.",
+   "example": "Pour séparer le sable de l'eau, on filtre."
+  },
+  {
+   "id": "c-eau",
+   "title": "Changements d'état de l'eau",
+   "lesson": "À la pression normale, l'eau pure fond à 0 °C et bout à 100 °C. Pendant un changement d'état, la température reste constante.",
+   "example": "La glace fond à 0 °C."
+  },
+  {
+   "id": "c-transfo",
+   "title": "Transformation physique ou chimique",
+   "lesson": "Dans une transformation physique, la nature de la matière ne change pas (fusion, dissolution). Dans une transformation chimique, de nouvelles substances apparaissent (combustion, rouille).",
+   "example": "Le papier qui brûle donne de la cendre et des fumées : transformation chimique."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "c-et-1",
+   "subject": "chimie",
+   "chapter": "États",
+   "skill": "c-etats",
+   "level": 1,
+   "type": "choice",
+   "prompt": "La glace est de l'eau à l'état…",
+   "options": [
+    {
+     "id": "a",
+     "text": "solide"
+    },
+    {
+     "id": "b",
+     "text": "liquide"
+    },
+    {
+     "id": "c",
+     "text": "gazeux"
+    }
+   ],
+   "answer": "a",
+   "explanation": "La glace est de l'eau solide."
+  },
+  {
+   "id": "c-et-2",
+   "subject": "chimie",
+   "chapter": "États",
+   "skill": "c-etats",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Le passage de l'état liquide à l'état gazeux s'appelle…",
+   "options": [
+    {
+     "id": "a",
+     "text": "la fusion"
+    },
+    {
+     "id": "b",
+     "text": "la vaporisation"
+    },
+    {
+     "id": "c",
+     "text": "la solidification"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Liquide → gaz : vaporisation. La fusion est solide → liquide."
+  },
+  {
+   "id": "c-me-1",
+   "subject": "chimie",
+   "chapter": "Mélanges",
+   "skill": "c-melanges",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Le mélange d'eau et de sable est…",
+   "options": [
+    {
+     "id": "a",
+     "text": "homogène"
+    },
+    {
+     "id": "b",
+     "text": "hétérogène"
+    }
+   ],
+   "answer": "b",
+   "explanation": "On distingue le sable et l'eau : plusieurs phases, donc hétérogène."
+  },
+  {
+   "id": "c-me-2",
+   "subject": "chimie",
+   "chapter": "Mélanges",
+   "skill": "c-melanges",
+   "level": 2,
+   "type": "choice",
+   "prompt": "L'eau salée (sel entièrement dissous) est un mélange…",
+   "options": [
+    {
+     "id": "a",
+     "text": "homogène"
+    },
+    {
+     "id": "b",
+     "text": "hétérogène"
+    }
+   ],
+   "answer": "a",
+   "explanation": "On ne voit qu'une seule phase : mélange homogène."
+  },
+  {
+   "id": "c-se-1",
+   "subject": "chimie",
+   "chapter": "Séparation",
+   "skill": "c-separation",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quelle technique sépare le sable de l'eau ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La filtration"
+    },
+    {
+     "id": "b",
+     "text": "L'évaporation du sable"
+    },
+    {
+     "id": "c",
+     "text": "La condensation"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Le filtre retient le sable et laisse passer l'eau."
+  },
+  {
+   "id": "c-se-2",
+   "subject": "chimie",
+   "chapter": "Séparation",
+   "skill": "c-separation",
+   "level": 3,
+   "type": "choice",
+   "prompt": "Quelle technique sépare l'huile de l'eau ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La filtration"
+    },
+    {
+     "id": "b",
+     "text": "La décantation"
+    }
+   ],
+   "answer": "b",
+   "explanation": "L'huile et l'eau forment deux couches : on les sépare par décantation."
+  },
+  {
+   "id": "c-ea-1",
+   "subject": "chimie",
+   "chapter": "Eau",
+   "skill": "c-eau",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "À la pression normale, à quelle température (en °C) l'eau pure bout-elle ?",
+   "answer": 100,
+   "explanation": "L'eau pure bout à 100 °C à la pression normale."
+  },
+  {
+   "id": "c-ea-2",
+   "subject": "chimie",
+   "chapter": "Eau",
+   "skill": "c-eau",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "À la pression normale, à quelle température (en °C) la glace fond-elle ?",
+   "answer": 0,
+   "explanation": "La glace fond à 0 °C à la pression normale."
+  },
+  {
+   "id": "c-tr-1",
+   "subject": "chimie",
+   "chapter": "Transformations",
+   "skill": "c-transfo",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Un morceau de papier qui brûle subit une transformation…",
+   "options": [
+    {
+     "id": "a",
+     "text": "physique"
+    },
+    {
+     "id": "b",
+     "text": "chimique"
+    }
+   ],
+   "answer": "b",
+   "explanation": "De nouvelles substances (cendres, fumées) apparaissent : transformation chimique."
+  },
+  {
+   "id": "c-tr-2",
+   "subject": "chimie",
+   "chapter": "Transformations",
+   "skill": "c-transfo",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Un glaçon qui fond subit une transformation…",
+   "options": [
+    {
+     "id": "a",
+     "text": "physique"
+    },
+    {
+     "id": "b",
+     "text": "chimique"
+    }
+   ],
+   "answer": "a",
+   "explanation": "C'est toujours de l'eau : seul l'état change. Transformation physique."
+  }
+ ]
+}

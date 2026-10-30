@@ -1,0 +1,275 @@
+{
+ "subject": "allemand",
+ "title": "Allemand",
+ "skills": [
+  {
+   "id": "d-articles",
+   "title": "Articles et genres",
+   "lesson": "En allemand, les noms ont trois genres : masculin (der), féminin (die), neutre (das). Il faut apprendre le nom avec son article.",
+   "example": "der Tisch (la table), die Mutter (la mère), das Haus (la maison)."
+  },
+  {
+   "id": "d-pronoms",
+   "title": "Pronoms personnels",
+   "lesson": "ich = je, du = tu, er = il, sie = elle, es = il/elle (neutre), wir = nous, ihr = vous, sie = ils/elles.",
+   "example": "Ich bin müde."
+  },
+  {
+   "id": "d-sein",
+   "title": "Les verbes sein et haben",
+   "lesson": "sein (être) : ich bin, du bist, er ist, wir sind, ihr seid, sie sind. haben (avoir) : ich habe, du hast, er hat.",
+   "example": "Ich bin Schüler. Du bist müde."
+  },
+  {
+   "id": "d-verbes",
+   "title": "Le présent des verbes réguliers",
+   "lesson": "On enlève -en à l'infinitif et on ajoute : -e, -st, -t, -en, -t, -en.",
+   "example": "spielen : ich spiele, du spielst, er spielt, wir spielen."
+  },
+  {
+   "id": "d-vocab",
+   "title": "Salutations et vocabulaire courant",
+   "lesson": "Hallo = salut, Guten Tag = bonjour, Danke = merci, Bitte = s'il te plaît / de rien, Tschüss = au revoir.",
+   "example": "Guten Tag ! Wie geht's ?"
+  },
+  {
+   "id": "d-dictee",
+   "title": "Hören und schreiben",
+   "lesson": "Écoute et écris. En allemand, les noms prennent une majuscule et « ß », « ä », « ö », « ü » existent.",
+   "example": "On entend « Schule » : S-c-h-u-l-e."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "d-ar-1",
+   "subject": "allemand",
+   "chapter": "Articles",
+   "skill": "d-articles",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel est l'article de « Haus » (maison) ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "der"
+    },
+    {
+     "id": "b",
+     "text": "die"
+    },
+    {
+     "id": "c",
+     "text": "das"
+    }
+   ],
+   "answer": "c",
+   "explanation": "« Haus » est neutre : das Haus."
+  },
+  {
+   "id": "d-ar-2",
+   "subject": "allemand",
+   "chapter": "Articles",
+   "skill": "d-articles",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel est l'article de « Mutter » (mère) ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "der"
+    },
+    {
+     "id": "b",
+     "text": "die"
+    },
+    {
+     "id": "c",
+     "text": "das"
+    }
+   ],
+   "answer": "b",
+   "explanation": "« Mutter » est féminin : die Mutter."
+  },
+  {
+   "id": "d-pr-1",
+   "subject": "allemand",
+   "chapter": "Pronoms",
+   "skill": "d-pronoms",
+   "level": 1,
+   "type": "short",
+   "prompt": "Traduis en allemand : « je ».",
+   "answer": "ich",
+   "accepted": [
+    "ich"
+   ],
+   "explanation": "« je » se dit « ich »."
+  },
+  {
+   "id": "d-pr-2",
+   "subject": "allemand",
+   "chapter": "Pronoms",
+   "skill": "d-pronoms",
+   "level": 1,
+   "type": "short",
+   "prompt": "Traduis en allemand : « nous ».",
+   "answer": "wir",
+   "accepted": [
+    "wir"
+   ],
+   "explanation": "« nous » se dit « wir »."
+  },
+  {
+   "id": "d-se-1",
+   "subject": "allemand",
+   "chapter": "Sein",
+   "skill": "d-sein",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Ich ___ Schüler. (sein)",
+   "answer": "bin",
+   "accepted": [
+    "bin"
+   ],
+   "explanation": "Avec « ich », sein devient « bin »."
+  },
+  {
+   "id": "d-se-2",
+   "subject": "allemand",
+   "chapter": "Sein",
+   "skill": "d-sein",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Du ___ müde. (sein)",
+   "answer": "bist",
+   "accepted": [
+    "bist"
+   ],
+   "explanation": "Avec « du », sein devient « bist »."
+  },
+  {
+   "id": "d-ve-1",
+   "subject": "allemand",
+   "chapter": "Verbes",
+   "skill": "d-verbes",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Er ___ Fußball. (spielen)",
+   "answer": "spielt",
+   "accepted": [
+    "spielt"
+   ],
+   "explanation": "Avec « er », on ajoute -t : spielt."
+  },
+  {
+   "id": "d-ve-2",
+   "subject": "allemand",
+   "chapter": "Verbes",
+   "skill": "d-verbes",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Wir ___ Hausaufgaben. (machen)",
+   "answer": "machen",
+   "accepted": [
+    "machen"
+   ],
+   "explanation": "Avec « wir », la terminaison est -en : machen."
+  },
+  {
+   "id": "d-vo-1",
+   "subject": "allemand",
+   "chapter": "Vocabulaire",
+   "skill": "d-vocab",
+   "level": 1,
+   "type": "short",
+   "prompt": "Traduis en allemand : « merci ».",
+   "answer": "Danke",
+   "accepted": [
+    "Danke"
+   ],
+   "explanation": "« merci » se dit « Danke ».",
+   "commonError": "Oublier la majuscule (casse)."
+  },
+  {
+   "id": "d-vo-2",
+   "subject": "allemand",
+   "chapter": "Vocabulaire",
+   "skill": "d-vocab",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Comment dit-on « bonjour » en allemand ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Guten Tag"
+    },
+    {
+     "id": "b",
+     "text": "Tschüss"
+    },
+    {
+     "id": "c",
+     "text": "Danke"
+    }
+   ],
+   "answer": "a",
+   "explanation": "« Guten Tag » veut dire bonjour. « Tschüss » = au revoir."
+  },
+  {
+   "id": "d-dictee-1",
+   "subject": "allemand",
+   "chapter": "Écouter et écrire",
+   "skill": "d-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Hör zu und schreib, was du hörst.",
+   "answer": "Schule",
+   "accepted": [
+    "Schule"
+   ],
+   "audio": {
+    "text": "Schule",
+    "lang": "de-DE"
+   },
+   "explanation": "On entendait : « Schule ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "d-dictee-2",
+   "subject": "allemand",
+   "chapter": "Écouter et écrire",
+   "skill": "d-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Hör zu und schreib, was du hörst.",
+   "answer": "Danke",
+   "accepted": [
+    "Danke"
+   ],
+   "audio": {
+    "text": "Danke",
+    "lang": "de-DE"
+   },
+   "explanation": "On entendait : « Danke ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "d-dictee-3",
+   "subject": "allemand",
+   "chapter": "Écouter et écrire",
+   "skill": "d-dictee",
+   "level": 2,
+   "type": "short",
+   "prompt": "Hör zu und schreib, was du hörst.",
+   "answer": "Ich bin müde",
+   "accepted": [
+    "Ich bin müde"
+   ],
+   "audio": {
+    "text": "Ich bin müde",
+    "lang": "de-DE"
+   },
+   "explanation": "On entendait : « Ich bin müde ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "subject": "anglais",
+ "title": "Anglais",
+ "skills": [
+  {
+   "id": "a-be",
+   "title": "Le verbe to be",
+   "lesson": "I am, you are, he/she/it is, we are, you are, they are.",
+   "example": "I am a student. She is my sister."
+  },
+  {
+   "id": "a-present",
+   "title": "Le présent simple",
+   "lesson": "Avec he, she, it, on ajoute -s au verbe. Avec I, you, we, they, le verbe ne change pas.",
+   "example": "He plays football. They go to school."
+  },
+  {
+   "id": "a-plural",
+   "title": "Le pluriel des noms",
+   "lesson": "En général on ajoute -s. Après s, x, ch, sh, on ajoute -es. Pluriels irréguliers : child → children, man → men.",
+   "example": "A box → two boxes."
+  },
+  {
+   "id": "a-questions",
+   "title": "Les mots interrogatifs",
+   "lesson": "What = quoi/quel. Where = où. Who = qui. How old = quel âge. When = quand.",
+   "example": "How old are you ? I am twelve."
+  },
+  {
+   "id": "a-vocab",
+   "title": "Vocabulaire de l'école",
+   "lesson": "school = école, book = livre, teacher = professeur, pen = stylo, classroom = salle de classe.",
+   "example": "My teacher has a book."
+  },
+  {
+   "id": "a-dictee",
+   "title": "Listen and write",
+   "lesson": "Listen carefully and write the word. In English, the spelling is not always like the sound: check each letter.",
+   "example": "You hear « teacher » : t-e-a-c-h-e-r."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "a-be-1",
+   "subject": "anglais",
+   "chapter": "To be",
+   "skill": "a-be",
+   "level": 1,
+   "type": "short",
+   "prompt": "Complète : I ___ a student. (am / is / are)",
+   "answer": "am",
+   "accepted": [
+    "am"
+   ],
+   "explanation": "Avec « I », on utilise « am »."
+  },
+  {
+   "id": "a-be-2",
+   "subject": "anglais",
+   "chapter": "To be",
+   "skill": "a-be",
+   "level": 1,
+   "type": "short",
+   "prompt": "Complète : She ___ my sister. (am / is / are)",
+   "answer": "is",
+   "accepted": [
+    "is"
+   ],
+   "explanation": "Avec « she », on utilise « is »."
+  },
+  {
+   "id": "a-pr-1",
+   "subject": "anglais",
+   "chapter": "Présent simple",
+   "skill": "a-present",
+   "level": 2,
+   "type": "short",
+   "prompt": "Écris le verbe au présent : He ___ (play) football on Sunday.",
+   "answer": "plays",
+   "accepted": [
+    "plays"
+   ],
+   "explanation": "Avec « he », on ajoute -s : plays.",
+   "commonError": "Écrire « play » sans -s."
+  },
+  {
+   "id": "a-pr-2",
+   "subject": "anglais",
+   "chapter": "Présent simple",
+   "skill": "a-present",
+   "level": 2,
+   "type": "short",
+   "prompt": "Écris le verbe au présent : They ___ (go) to school by bus.",
+   "answer": "go",
+   "accepted": [
+    "go"
+   ],
+   "explanation": "Avec « they », le verbe ne change pas : go."
+  },
+  {
+   "id": "a-pl-1",
+   "subject": "anglais",
+   "chapter": "Pluriel",
+   "skill": "a-plural",
+   "level": 2,
+   "type": "short",
+   "prompt": "Écris le pluriel de « child ».",
+   "answer": "children",
+   "accepted": [
+    "children"
+   ],
+   "explanation": "« child » a un pluriel irrégulier : children."
+  },
+  {
+   "id": "a-pl-2",
+   "subject": "anglais",
+   "chapter": "Pluriel",
+   "skill": "a-plural",
+   "level": 2,
+   "type": "short",
+   "prompt": "Écris le pluriel de « box ».",
+   "answer": "boxes",
+   "accepted": [
+    "boxes"
+   ],
+   "explanation": "Après -x, on ajoute -es : boxes."
+  },
+  {
+   "id": "a-qu-1",
+   "subject": "anglais",
+   "chapter": "Questions",
+   "skill": "a-questions",
+   "level": 1,
+   "type": "choice",
+   "prompt": "___ is your name ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "What"
+    },
+    {
+     "id": "b",
+     "text": "Where"
+    },
+    {
+     "id": "c",
+     "text": "Who"
+    }
+   ],
+   "answer": "a",
+   "explanation": "On demande le nom avec « What ». Where = où, Who = qui."
+  },
+  {
+   "id": "a-qu-2",
+   "subject": "anglais",
+   "chapter": "Questions",
+   "skill": "a-questions",
+   "level": 2,
+   "type": "choice",
+   "prompt": "___ old are you ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "What"
+    },
+    {
+     "id": "b",
+     "text": "How"
+    },
+    {
+     "id": "c",
+     "text": "When"
+    }
+   ],
+   "answer": "b",
+   "explanation": "« How old » demande l'âge."
+  },
+  {
+   "id": "a-vo-1",
+   "subject": "anglais",
+   "chapter": "Vocabulaire",
+   "skill": "a-vocab",
+   "level": 1,
+   "type": "short",
+   "prompt": "Traduis en anglais : « école ».",
+   "answer": "school",
+   "accepted": [
+    "school",
+    "the school"
+   ],
+   "explanation": "« école » se dit « school »."
+  },
+  {
+   "id": "a-vo-2",
+   "subject": "anglais",
+   "chapter": "Vocabulaire",
+   "skill": "a-vocab",
+   "level": 1,
+   "type": "short",
+   "prompt": "Traduis en anglais : « livre ».",
+   "answer": "book",
+   "accepted": [
+    "book",
+    "a book",
+    "the book"
+   ],
+   "explanation": "« livre » se dit « book »."
+  },
+  {
+   "id": "a-dictee-1",
+   "subject": "anglais",
+   "chapter": "Écouter et écrire",
+   "skill": "a-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Listen, then write what you hear.",
+   "answer": "teacher",
+   "accepted": [
+    "teacher"
+   ],
+   "audio": {
+    "text": "teacher",
+    "lang": "en-GB"
+   },
+   "explanation": "On entendait : « teacher ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "a-dictee-2",
+   "subject": "anglais",
+   "chapter": "Écouter et écrire",
+   "skill": "a-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Listen, then write what you hear.",
+   "answer": "friend",
+   "accepted": [
+    "friend"
+   ],
+   "audio": {
+    "text": "friend",
+    "lang": "en-GB"
+   },
+   "explanation": "On entendait : « friend ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "a-dictee-3",
+   "subject": "anglais",
+   "chapter": "Écouter et écrire",
+   "skill": "a-dictee",
+   "level": 2,
+   "type": "short",
+   "prompt": "Listen, then write what you hear.",
+   "answer": "I like music",
+   "accepted": [
+    "I like music"
+   ],
+   "audio": {
+    "text": "I like music",
+    "lang": "en-GB"
+   },
+   "explanation": "On entendait : « I like music ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  }
+ ]
+}

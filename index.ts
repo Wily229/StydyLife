@@ -1,0 +1,11 @@
+import maths from './maths.json';
+import francais from './francais.json';
+import physique from './physique.json';
+import chimie from './chimie.json';
+import svt from './svt.json';
+import anglais from './anglais.json';
+import allemand from './allemand.json';
+import type { SubjectContent, SubjectId } from '../types';
+export const CONTENT = [maths, francais, physique, chimie, svt, anglais, allemand] as unknown as SubjectContent[];
+export const SUBJECT_LABELS: Record<SubjectId, string> = { francais:'Français', maths:'Mathématiques', physique:'Physique', chimie:'Chimie', svt:'SVT', anglais:'Anglais', allemand:'Allemand' };
+export const getSubject = (id: SubjectId) => CONTENT.find(c => c.subject === id);

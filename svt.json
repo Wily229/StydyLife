@@ -1,0 +1,280 @@
+{
+ "subject": "svt",
+ "title": "SVT",
+ "skills": [
+  {
+   "id": "s-aliments",
+   "title": "Les aliments et leurs rôles",
+   "lesson": "Les protéines (poisson, œufs, haricots) construisent le corps. Les glucides (riz, igname, manioc) et les lipides (huile) fournissent de l'énergie. Les fruits et légumes apportent vitamines et sels minéraux.",
+   "example": "Le poisson est riche en protéines."
+  },
+  {
+   "id": "s-digestion",
+   "title": "La digestion",
+   "lesson": "Les aliments passent par la bouche, l'œsophage, l'estomac, l'intestin grêle puis le gros intestin. Les nutriments passent dans le sang à travers la paroi de l'intestin grêle.",
+   "example": "Absorption des nutriments : dans l'intestin grêle."
+  },
+  {
+   "id": "s-respiration",
+   "title": "La respiration",
+   "lesson": "On inspire du dioxygène et on rejette du dioxyde de carbone. L'échange a lieu dans les poumons entre l'air et le sang.",
+   "example": "Le sang se charge en dioxygène dans les poumons."
+  },
+  {
+   "id": "s-paludisme",
+   "title": "Le paludisme",
+   "lesson": "Le paludisme est une maladie causée par un parasite transmis par la piqûre d'un moustique, l'anophèle femelle. La moustiquaire imprégnée et l'assainissement du milieu réduisent le risque.",
+   "example": "Dormir sous moustiquaire imprégnée protège des piqûres."
+  },
+  {
+   "id": "s-plante",
+   "title": "La plante verte",
+   "lesson": "Grâce à la lumière, la plante verte fabrique sa matière à partir d'eau, de sels minéraux et de dioxyde de carbone : c'est la photosynthèse. Les racines absorbent l'eau et les sels minéraux.",
+   "example": "Les feuilles vertes captent la lumière."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "s-al-1",
+   "subject": "svt",
+   "chapter": "Aliments",
+   "skill": "s-aliments",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel aliment est riche en protéines ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Le poisson"
+    },
+    {
+     "id": "b",
+     "text": "L'huile"
+    },
+    {
+     "id": "c",
+     "text": "Le sucre"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Le poisson apporte beaucoup de protéines. L'huile est riche en lipides et le sucre en glucides."
+  },
+  {
+   "id": "s-al-2",
+   "subject": "svt",
+   "chapter": "Aliments",
+   "skill": "s-aliments",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Les glucides (riz, igname) fournissent surtout…",
+   "options": [
+    {
+     "id": "a",
+     "text": "de l'énergie"
+    },
+    {
+     "id": "b",
+     "text": "des os"
+    },
+    {
+     "id": "c",
+     "text": "des vitamines"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Les glucides sont une source d'énergie."
+  },
+  {
+   "id": "s-di-1",
+   "subject": "svt",
+   "chapter": "Digestion",
+   "skill": "s-digestion",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel est le premier organe du tube digestif ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "L'estomac"
+    },
+    {
+     "id": "b",
+     "text": "La bouche"
+    },
+    {
+     "id": "c",
+     "text": "L'intestin grêle"
+    }
+   ],
+   "answer": "b",
+   "explanation": "La digestion commence dans la bouche."
+  },
+  {
+   "id": "s-di-2",
+   "subject": "svt",
+   "chapter": "Digestion",
+   "skill": "s-digestion",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Où les nutriments passent-ils dans le sang ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dans l'estomac"
+    },
+    {
+     "id": "b",
+     "text": "Dans l'œsophage"
+    },
+    {
+     "id": "c",
+     "text": "Dans l'intestin grêle"
+    }
+   ],
+   "answer": "c",
+   "explanation": "L'absorption des nutriments se fait à travers la paroi de l'intestin grêle."
+  },
+  {
+   "id": "s-re-1",
+   "subject": "svt",
+   "chapter": "Respiration",
+   "skill": "s-respiration",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel gaz absorbe-t-on en respirant ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Le dioxygène"
+    },
+    {
+     "id": "b",
+     "text": "Le dioxyde de carbone"
+    }
+   ],
+   "answer": "a",
+   "explanation": "On inspire du dioxygène et on rejette du dioxyde de carbone."
+  },
+  {
+   "id": "s-re-2",
+   "subject": "svt",
+   "chapter": "Respiration",
+   "skill": "s-respiration",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Dans quel organe le sang se charge-t-il en dioxygène ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dans le cœur"
+    },
+    {
+     "id": "b",
+     "text": "Dans les poumons"
+    },
+    {
+     "id": "c",
+     "text": "Dans l'estomac"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Les échanges gazeux ont lieu dans les poumons."
+  },
+  {
+   "id": "s-pa-1",
+   "subject": "svt",
+   "chapter": "Paludisme",
+   "skill": "s-paludisme",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Le paludisme est transmis par…",
+   "options": [
+    {
+     "id": "a",
+     "text": "l'anophèle femelle"
+    },
+    {
+     "id": "b",
+     "text": "l'eau claire"
+    },
+    {
+     "id": "c",
+     "text": "le contact des mains"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Le parasite passe à l'homme par la piqûre d'un moustique, l'anophèle femelle."
+  },
+  {
+   "id": "s-pa-2",
+   "subject": "svt",
+   "chapter": "Paludisme",
+   "skill": "s-paludisme",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quel moyen de prévention est efficace contre le paludisme ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La moustiquaire imprégnée"
+    },
+    {
+     "id": "b",
+     "text": "Manger plus de sucre"
+    }
+   ],
+   "answer": "a",
+   "explanation": "La moustiquaire imprégnée empêche les piqûres pendant le sommeil."
+  },
+  {
+   "id": "s-pl-1",
+   "subject": "svt",
+   "chapter": "Plantes",
+   "skill": "s-plante",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quel organe de la plante absorbe l'eau et les sels minéraux ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Les racines"
+    },
+    {
+     "id": "b",
+     "text": "Les fleurs"
+    },
+    {
+     "id": "c",
+     "text": "Les fruits"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Les racines absorbent l'eau et les sels minéraux du sol."
+  },
+  {
+   "id": "s-pl-2",
+   "subject": "svt",
+   "chapter": "Plantes",
+   "skill": "s-plante",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Comment s'appelle la fabrication de matière par la plante verte grâce à la lumière ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La photosynthèse"
+    },
+    {
+     "id": "b",
+     "text": "La digestion"
+    },
+    {
+     "id": "c",
+     "text": "La condensation"
+    }
+   ],
+   "answer": "a",
+   "explanation": "C'est la photosynthèse."
+  }
+ ]
+}

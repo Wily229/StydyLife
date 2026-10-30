@@ -1,0 +1,224 @@
+{
+ "subject": "maths",
+ "title": "Mathématiques",
+ "skills": [
+  {
+   "id": "m-fractions",
+   "title": "Fractions équivalentes et addition",
+   "lesson": "Une fraction a/b partage un tout en b parts égales et en prend a. Deux fractions sont égales si on multiplie ou divise le haut et le bas par le même nombre. Pour additionner, il faut le même dénominateur.",
+   "example": "1/2 + 1/4 : on écrit 1/2 = 2/4, puis 2/4 + 1/4 = 3/4."
+  },
+  {
+   "id": "m-relatifs",
+   "title": "Nombres relatifs : addition",
+   "lesson": "Deux nombres de même signe : on additionne les distances à zéro et on garde le signe. Deux nombres de signes contraires : on soustrait la plus petite distance à la plus grande et on garde le signe du nombre le plus éloigné de zéro.",
+   "example": "(-2) + (-6) = -8 ; (-9) + 4 = -5."
+  },
+  {
+   "id": "m-priorites",
+   "title": "Priorités opératoires",
+   "lesson": "On calcule d'abord les parenthèses, puis les multiplications et divisions, enfin les additions et soustractions, de gauche à droite.",
+   "example": "5 + 2 × 3 = 5 + 6 = 11."
+  },
+  {
+   "id": "m-proportion",
+   "title": "Proportionnalité",
+   "lesson": "Deux grandeurs sont proportionnelles quand on passe de l'une à l'autre en multipliant toujours par le même nombre (coefficient). On peut utiliser le prix d'une unité.",
+   "example": "4 stylos coûtent 800 F : 1 stylo coûte 200 F, donc 6 stylos coûtent 1 200 F."
+  },
+  {
+   "id": "m-equations",
+   "title": "Équations simples",
+   "lesson": "Résoudre une équation, c'est trouver la valeur de x. On fait la même opération des deux côtés du signe égal pour isoler x.",
+   "example": "x + 4 = 9 ⇒ x = 9 − 4 = 5 ; 2x = 10 ⇒ x = 10 ÷ 2 = 5."
+  },
+  {
+   "id": "m-bases",
+   "title": "Bases : tables et divisions",
+   "lesson": "Les tables de multiplication et les divisions simples sont la base de tout le reste. Diviser, c'est partager en parts égales : le quart d'un nombre, c'est ce nombre divisé par 4.",
+   "example": "Le tiers de 12, c'est 12 ÷ 3 = 4."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "m-fr-1",
+   "subject": "maths",
+   "chapter": "Fractions",
+   "skill": "m-fractions",
+   "level": 2,
+   "type": "short",
+   "prompt": "Calcule 1/2 + 1/4. Écris le résultat sous la forme a/b.",
+   "answer": "3/4",
+   "accepted": [
+    "3/4",
+    "3 / 4"
+   ],
+   "explanation": "On met au même dénominateur : 1/2 = 2/4. Puis 2/4 + 1/4 = 3/4.",
+   "hint": "Écris 1/2 avec un dénominateur 4.",
+   "commonError": "Additionner les dénominateurs (1+1)/(2+4)."
+  },
+  {
+   "id": "m-fr-2",
+   "subject": "maths",
+   "chapter": "Fractions",
+   "skill": "m-fractions",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quelle fraction est égale à 2/4 ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1/2"
+    },
+    {
+     "id": "b",
+     "text": "1/4"
+    },
+    {
+     "id": "c",
+     "text": "2/2"
+    }
+   ],
+   "answer": "a",
+   "explanation": "On divise le haut et le bas par 2 : 2/4 = 1/2.",
+   "hint": "Divise 2 et 4 par le même nombre."
+  },
+  {
+   "id": "m-re-1",
+   "subject": "maths",
+   "chapter": "Relatifs",
+   "skill": "m-relatifs",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "Calcule (-3) + (-5).",
+   "answer": -8,
+   "explanation": "Même signe : 3 + 5 = 8, on garde le signe moins. Résultat : -8.",
+   "commonError": "Répondre +8 ou -2."
+  },
+  {
+   "id": "m-re-2",
+   "subject": "maths",
+   "chapter": "Relatifs",
+   "skill": "m-relatifs",
+   "level": 3,
+   "type": "numeric",
+   "prompt": "Calcule (-7) + 4.",
+   "answer": -3,
+   "explanation": "Signes contraires : 7 − 4 = 3, et -7 est le plus éloigné de zéro, donc le signe est moins. Résultat : -3.",
+   "hint": "Qui est le plus loin de zéro : -7 ou 4 ?"
+  },
+  {
+   "id": "m-pr-1",
+   "subject": "maths",
+   "chapter": "Priorités",
+   "skill": "m-priorites",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "Calcule 3 + 4 × 2.",
+   "answer": 11,
+   "explanation": "La multiplication est prioritaire : 4 × 2 = 8, puis 3 + 8 = 11.",
+   "commonError": "Calculer de gauche à droite : 7 × 2 = 14."
+  },
+  {
+   "id": "m-pr-2",
+   "subject": "maths",
+   "chapter": "Priorités",
+   "skill": "m-priorites",
+   "level": 3,
+   "type": "numeric",
+   "prompt": "Calcule (3 + 4) × 2.",
+   "answer": 14,
+   "explanation": "Les parenthèses d'abord : 3 + 4 = 7, puis 7 × 2 = 14."
+  },
+  {
+   "id": "m-pp-1",
+   "subject": "maths",
+   "chapter": "Proportionnalité",
+   "skill": "m-proportion",
+   "level": 3,
+   "type": "numeric",
+   "prompt": "3 cahiers coûtent 600 F. Combien coûtent 5 cahiers (en F) ?",
+   "answer": 1000,
+   "explanation": "1 cahier coûte 600 ÷ 3 = 200 F. Donc 5 cahiers coûtent 5 × 200 = 1 000 F.",
+   "hint": "Cherche d'abord le prix d'un cahier."
+  },
+  {
+   "id": "m-pp-2",
+   "subject": "maths",
+   "chapter": "Proportionnalité",
+   "skill": "m-proportion",
+   "level": 3,
+   "type": "choice",
+   "prompt": "Vrai ou faux : si 2 objets coûtent 6 F et 3 objets coûtent 9 F, le prix est proportionnel au nombre d'objets.",
+   "options": [
+    {
+     "id": "v",
+     "text": "Vrai"
+    },
+    {
+     "id": "f",
+     "text": "Faux"
+    }
+   ],
+   "answer": "v",
+   "explanation": "On passe de 2 à 6 et de 3 à 9 en multipliant par 3 les deux fois : c'est proportionnel."
+  },
+  {
+   "id": "m-eq-1",
+   "subject": "maths",
+   "chapter": "Équations",
+   "skill": "m-equations",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "Résous x + 5 = 12. Que vaut x ?",
+   "answer": 7,
+   "explanation": "On retire 5 des deux côtés : x = 12 − 5 = 7.",
+   "commonError": "Additionner : 12 + 5."
+  },
+  {
+   "id": "m-eq-2",
+   "subject": "maths",
+   "chapter": "Équations",
+   "skill": "m-equations",
+   "level": 3,
+   "type": "numeric",
+   "prompt": "Résous 3x = 18. Que vaut x ?",
+   "answer": 6,
+   "explanation": "On divise les deux côtés par 3 : x = 18 ÷ 3 = 6."
+  },
+  {
+   "id": "m-ba-1",
+   "subject": "maths",
+   "chapter": "Bases",
+   "skill": "m-bases",
+   "level": 1,
+   "type": "numeric",
+   "prompt": "Calcule 7 × 8.",
+   "answer": 56,
+   "explanation": "7 × 8 = 56. Astuce : 7 × 8 = 7 × 4 × 2 = 28 × 2.",
+   "hint": "Pense à 7 × 4 puis double."
+  },
+  {
+   "id": "m-ba-2",
+   "subject": "maths",
+   "chapter": "Bases",
+   "skill": "m-bases",
+   "level": 1,
+   "type": "numeric",
+   "prompt": "Calcule 72 ÷ 9.",
+   "answer": 8,
+   "explanation": "9 × 8 = 72, donc 72 ÷ 9 = 8."
+  },
+  {
+   "id": "m-ba-3",
+   "subject": "maths",
+   "chapter": "Bases",
+   "skill": "m-bases",
+   "level": 1,
+   "type": "numeric",
+   "prompt": "Quel est le quart de 20 ?",
+   "answer": 5,
+   "explanation": "Le quart, c'est diviser par 4 : 20 ÷ 4 = 5."
+  }
+ ]
+}

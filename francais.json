@@ -1,0 +1,281 @@
+{
+ "subject": "francais",
+ "title": "Français",
+ "skills": [
+  {
+   "id": "f-nature",
+   "title": "Nature des mots",
+   "lesson": "Le nom désigne une personne, un animal, une chose. Le verbe exprime une action ou un état et se conjugue. L'adjectif dit comment est le nom.",
+   "example": "Le petit chat dort : « chat » est un nom, « petit » un adjectif, « dort » un verbe."
+  },
+  {
+   "id": "f-conj",
+   "title": "Présent des verbes en -er",
+   "lesson": "Au présent, les verbes en -er ont les terminaisons : -e, -es, -e, -ons, -ez, -ent.",
+   "example": "Je chante, tu chantes, il chante, nous chantons, vous chantez, ils chantent."
+  },
+  {
+   "id": "f-accord",
+   "title": "Accord et pluriel",
+   "lesson": "Le verbe s'accorde avec son sujet. Au pluriel, on ajoute souvent -s au nom ; les noms en -al font souvent -aux.",
+   "example": "Les chats dorment. Un cheval, des chevaux."
+  },
+  {
+   "id": "f-phrases",
+   "title": "Types de phrases",
+   "lesson": "Déclarative : elle informe. Interrogative : elle pose une question. Injonctive : elle donne un ordre ou un conseil.",
+   "example": "« Ferme la porte ! » est une phrase injonctive."
+  },
+  {
+   "id": "f-aa",
+   "title": "a / à",
+   "lesson": "« a » est le verbe avoir : on peut le remplacer par « avait ». « à » est une préposition : on ne peut pas le remplacer.",
+   "example": "Il a faim (il avait faim). Je vais à l'école."
+  },
+  {
+   "id": "f-dictee",
+   "title": "Écouter et écrire",
+   "lesson": "Écoute bien, écris sans te presser et pense aux accents et aux accords. Tu peux réécouter autant de fois que tu veux.",
+   "example": "On entend « école » : on écrit é-c-o-l-e avec l'accent sur le premier e."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "f-na-1",
+   "subject": "francais",
+   "chapter": "Nature des mots",
+   "skill": "f-nature",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Dans « Le chat dort », quelle est la nature du mot « chat » ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Un nom"
+    },
+    {
+     "id": "b",
+     "text": "Un verbe"
+    },
+    {
+     "id": "c",
+     "text": "Un adjectif"
+    }
+   ],
+   "answer": "a",
+   "explanation": "« chat » désigne un animal : c'est un nom."
+  },
+  {
+   "id": "f-na-2",
+   "subject": "francais",
+   "chapter": "Nature des mots",
+   "skill": "f-nature",
+   "level": 2,
+   "type": "short",
+   "prompt": "Quel est le verbe dans : « Les enfants jouent dans la cour » ?",
+   "answer": "jouent",
+   "accepted": [
+    "jouent"
+   ],
+   "explanation": "« jouent » exprime une action et se conjugue (jouer).",
+   "hint": "Cherche le mot qui change avec le temps."
+  },
+  {
+   "id": "f-co-1",
+   "subject": "francais",
+   "chapter": "Conjugaison",
+   "skill": "f-conj",
+   "level": 2,
+   "type": "short",
+   "prompt": "Conjugue au présent : nous (chanter).",
+   "answer": "chantons",
+   "accepted": [
+    "chantons"
+   ],
+   "explanation": "Avec « nous », la terminaison est -ons : nous chantons.",
+   "commonError": "Écrire « chantez » ou « chantent »."
+  },
+  {
+   "id": "f-co-2",
+   "subject": "francais",
+   "chapter": "Conjugaison",
+   "skill": "f-conj",
+   "level": 3,
+   "type": "short",
+   "prompt": "Conjugue au présent : ils (manger).",
+   "answer": "mangent",
+   "accepted": [
+    "mangent"
+   ],
+   "explanation": "Avec « ils », la terminaison est -ent : ils mangent. Le « t » final ne se prononce pas."
+  },
+  {
+   "id": "f-ac-1",
+   "subject": "francais",
+   "chapter": "Accords",
+   "skill": "f-accord",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Les chats ___ (dormir) au soleil.",
+   "answer": "dorment",
+   "accepted": [
+    "dorment"
+   ],
+   "explanation": "Le sujet « les chats » est pluriel : ils dorment.",
+   "hint": "Remplace « les chats » par « ils »."
+  },
+  {
+   "id": "f-ac-2",
+   "subject": "francais",
+   "chapter": "Accords",
+   "skill": "f-accord",
+   "level": 3,
+   "type": "short",
+   "prompt": "Écris le pluriel de « un cheval ».",
+   "answer": "chevaux",
+   "accepted": [
+    "des chevaux",
+    "chevaux"
+   ],
+   "explanation": "Les noms en -al font souvent leur pluriel en -aux : des chevaux.",
+   "commonError": "Écrire « chevals »."
+  },
+  {
+   "id": "f-ph-1",
+   "subject": "francais",
+   "chapter": "Types de phrases",
+   "skill": "f-phrases",
+   "level": 2,
+   "type": "choice",
+   "prompt": "« Ferme la porte ! » est une phrase…",
+   "options": [
+    {
+     "id": "a",
+     "text": "déclarative"
+    },
+    {
+     "id": "b",
+     "text": "interrogative"
+    },
+    {
+     "id": "c",
+     "text": "injonctive"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Elle donne un ordre : c'est une phrase injonctive."
+  },
+  {
+   "id": "f-ph-2",
+   "subject": "francais",
+   "chapter": "Types de phrases",
+   "skill": "f-phrases",
+   "level": 1,
+   "type": "choice",
+   "prompt": "« Où vas-tu ? » est une phrase…",
+   "options": [
+    {
+     "id": "a",
+     "text": "interrogative"
+    },
+    {
+     "id": "b",
+     "text": "déclarative"
+    },
+    {
+     "id": "c",
+     "text": "injonctive"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Elle pose une question : interrogative."
+  },
+  {
+   "id": "f-aa-1",
+   "subject": "francais",
+   "chapter": "Orthographe",
+   "skill": "f-aa",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Il ___ faim. (a ou à)",
+   "answer": "a",
+   "accepted": [
+    "a"
+   ],
+   "explanation": "On peut dire « il avait faim » : c'est le verbe avoir, donc « a » sans accent.",
+   "hint": "Essaie de remplacer par « avait »."
+  },
+  {
+   "id": "f-aa-2",
+   "subject": "francais",
+   "chapter": "Orthographe",
+   "skill": "f-aa",
+   "level": 2,
+   "type": "short",
+   "prompt": "Complète : Je vais ___ l'école. (a ou à)",
+   "answer": "à",
+   "accepted": [
+    "à"
+   ],
+   "explanation": "On ne peut pas dire « je vais avait l'école » : c'est la préposition « à ».",
+   "commonError": "Oublier l'accent."
+  },
+  {
+   "id": "f-dictee-1",
+   "subject": "francais",
+   "chapter": "Écouter et écrire",
+   "skill": "f-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Écoute puis écris ce que tu entends.",
+   "answer": "cahier",
+   "accepted": [
+    "cahier"
+   ],
+   "audio": {
+    "text": "cahier",
+    "lang": "fr-FR"
+   },
+   "explanation": "On entendait : « cahier ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "f-dictee-2",
+   "subject": "francais",
+   "chapter": "Écouter et écrire",
+   "skill": "f-dictee",
+   "level": 1,
+   "type": "short",
+   "prompt": "Écoute puis écris ce que tu entends.",
+   "answer": "école",
+   "accepted": [
+    "école"
+   ],
+   "audio": {
+    "text": "école",
+    "lang": "fr-FR"
+   },
+   "explanation": "On entendait : « école ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  },
+  {
+   "id": "f-dictee-3",
+   "subject": "francais",
+   "chapter": "Écouter et écrire",
+   "skill": "f-dictee",
+   "level": 2,
+   "type": "short",
+   "prompt": "Écoute puis écris ce que tu entends.",
+   "answer": "le chat dort",
+   "accepted": [
+    "le chat dort"
+   ],
+   "audio": {
+    "text": "le chat dort",
+    "lang": "fr-FR"
+   },
+   "explanation": "On entendait : « le chat dort ». Réécoute en ralentissant si besoin, et vérifie chaque lettre.",
+   "hint": "Réécoute lentement, mot par mot."
+  }
+ ]
+}

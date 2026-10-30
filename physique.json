@@ -1,0 +1,239 @@
+{
+ "subject": "physique",
+ "title": "Physique",
+ "skills": [
+  {
+   "id": "p-grandeurs",
+   "title": "Grandeurs et appareils de mesure",
+   "lesson": "Une grandeur physique se mesure avec un appareil et une unité : la masse (balance, kg), le volume d'un liquide (éprouvette graduée, L ou mL), la longueur (règle, m).",
+   "example": "On mesure la masse d'un sac de riz avec une balance : 5 kg."
+  },
+  {
+   "id": "p-conversion",
+   "title": "Conversions d'unités",
+   "lesson": "1 kg = 1 000 g ; 1 L = 1 000 mL ; 1 m = 100 cm. Pour passer à une unité plus petite, on multiplie ; vers une unité plus grande, on divise.",
+   "example": "2 kg = 2 × 1 000 = 2 000 g."
+  },
+  {
+   "id": "p-lumiere",
+   "title": "Propagation de la lumière",
+   "lesson": "Dans un milieu transparent et homogène (l'air, l'eau pure), la lumière se propage en ligne droite. Un objet opaque arrête la lumière et crée une ombre.",
+   "example": "Le rayon d'une lampe torche forme une ligne droite dans l'air."
+  },
+  {
+   "id": "p-circuit",
+   "title": "Circuit électrique simple",
+   "lesson": "Une lampe brille si le circuit est fermé : pile, fils, lampe forment une boucle sans coupure. Un interrupteur ouvert coupe le circuit.",
+   "example": "Pile + fils + lampe + interrupteur fermé : la lampe brille."
+  },
+  {
+   "id": "p-conducteurs",
+   "title": "Conducteurs et isolants",
+   "lesson": "Un conducteur laisse passer le courant électrique (métaux comme le cuivre, le fer). Un isolant ne le laisse pas passer (plastique, bois sec, verre, caoutchouc).",
+   "example": "Le fil est en cuivre (conducteur), recouvert de plastique (isolant)."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "p-gr-1",
+   "subject": "physique",
+   "chapter": "Mesures",
+   "skill": "p-grandeurs",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Quel appareil permet de mesurer la masse d'un objet ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Une balance"
+    },
+    {
+     "id": "b",
+     "text": "Une éprouvette graduée"
+    },
+    {
+     "id": "c",
+     "text": "Un thermomètre"
+    }
+   ],
+   "answer": "a",
+   "explanation": "La masse se mesure avec une balance. L'éprouvette graduée mesure un volume et le thermomètre une température."
+  },
+  {
+   "id": "p-gr-2",
+   "subject": "physique",
+   "chapter": "Mesures",
+   "skill": "p-grandeurs",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quelle est l'unité de masse du Système international ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Le litre"
+    },
+    {
+     "id": "b",
+     "text": "Le kilogramme"
+    },
+    {
+     "id": "c",
+     "text": "Le mètre"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Le kilogramme (kg) est l'unité de masse. Le litre mesure un volume et le mètre une longueur."
+  },
+  {
+   "id": "p-co-1",
+   "subject": "physique",
+   "chapter": "Conversions",
+   "skill": "p-conversion",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "Convertis 2,5 kg en grammes. Écris seulement le nombre.",
+   "answer": 2500,
+   "explanation": "1 kg = 1 000 g, donc 2,5 × 1 000 = 2 500 g.",
+   "hint": "Multiplie par 1 000."
+  },
+  {
+   "id": "p-co-2",
+   "subject": "physique",
+   "chapter": "Conversions",
+   "skill": "p-conversion",
+   "level": 2,
+   "type": "numeric",
+   "prompt": "Convertis 3 L en mL. Écris seulement le nombre.",
+   "answer": 3000,
+   "explanation": "1 L = 1 000 mL, donc 3 × 1 000 = 3 000 mL."
+  },
+  {
+   "id": "p-co-3",
+   "subject": "physique",
+   "chapter": "Conversions",
+   "skill": "p-conversion",
+   "level": 3,
+   "type": "numeric",
+   "prompt": "Convertis 1,5 m en cm. Écris seulement le nombre.",
+   "answer": 150,
+   "explanation": "1 m = 100 cm, donc 1,5 × 100 = 150 cm."
+  },
+  {
+   "id": "p-lu-1",
+   "subject": "physique",
+   "chapter": "Lumière",
+   "skill": "p-lumiere",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Vrai ou faux : dans l'air, la lumière se propage en ligne droite.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vrai"
+    },
+    {
+     "id": "b",
+     "text": "Faux"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Dans un milieu transparent et homogène comme l'air, la lumière se propage en ligne droite."
+  },
+  {
+   "id": "p-lu-2",
+   "subject": "physique",
+   "chapter": "Lumière",
+   "skill": "p-lumiere",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quel objet donne une ombre nette quand on l'éclaire ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Une vitre transparente"
+    },
+    {
+     "id": "b",
+     "text": "Un livre"
+    },
+    {
+     "id": "c",
+     "text": "De l'air"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Un objet opaque comme un livre arrête la lumière et forme une ombre. Une vitre transparente laisse passer la lumière."
+  },
+  {
+   "id": "p-ci-1",
+   "subject": "physique",
+   "chapter": "Circuit",
+   "skill": "p-circuit",
+   "level": 1,
+   "type": "choice",
+   "prompt": "Pour qu'une lampe brille, le circuit doit être…",
+   "options": [
+    {
+     "id": "a",
+     "text": "ouvert"
+    },
+    {
+     "id": "b",
+     "text": "fermé"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Le courant circule seulement dans une boucle fermée, sans coupure."
+  },
+  {
+   "id": "p-cd-1",
+   "subject": "physique",
+   "chapter": "Conducteurs",
+   "skill": "p-conducteurs",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Quel matériau est un isolant électrique ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Le cuivre"
+    },
+    {
+     "id": "b",
+     "text": "Le fer"
+    },
+    {
+     "id": "c",
+     "text": "Le plastique"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Le plastique ne laisse pas passer le courant. Le cuivre et le fer sont des métaux conducteurs."
+  },
+  {
+   "id": "p-cd-2",
+   "subject": "physique",
+   "chapter": "Conducteurs",
+   "skill": "p-conducteurs",
+   "level": 2,
+   "type": "choice",
+   "prompt": "Pourquoi les fils électriques sont-ils recouverts de plastique ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pour isoler et éviter les chocs électriques"
+    },
+    {
+     "id": "b",
+     "text": "Pour les rendre plus lourds"
+    },
+    {
+     "id": "c",
+     "text": "Pour qu'ils conduisent mieux"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Le plastique est un isolant : il protège des chocs électriques."
+  }
+ ]
+}
